@@ -1,4 +1,5 @@
 import React from "react";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "./App.css";
 
 function App(): React.JSX.Element {
@@ -10,7 +11,32 @@ function App(): React.JSX.Element {
 
             <h1>This is a header</h1>
 
-            <img src="https://i.imgur.com/v32GLZQ.jpeg" alt="Cat attack"></img>
+            <img src="https://i.imgur.com/q07Jibp.jpeg" alt="Orange cat"></img>
+
+            <ol>
+                <li>Apple</li>
+                <li>Orange</li>
+                <li>Pear</li>
+            </ol>
+
+            <Button
+                onClick={() => {
+                    console.log("Hello World!");
+                }}
+            >
+                Log Hello World
+            </Button>
+
+            <Container>
+                <Row>
+                    <Col>
+                        <div id="red"></div>
+                    </Col>
+                    <Col>
+                        <div id="red"></div>
+                    </Col>
+                </Row>
+            </Container>
 
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
