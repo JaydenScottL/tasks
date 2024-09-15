@@ -38,7 +38,6 @@ function App(): React.JSX.Element {
             </p>
 
             <b>Jayden LeCorps</b>
-            <ul>COS 420 test</ul>
             <p>Hello World!</p>
 
             <ol>
@@ -47,13 +46,6 @@ function App(): React.JSX.Element {
                 <li>Pear</li>
                 <li>Lemon</li>
             </ol>
-
-            <ul>
-                <li>Apple</li>
-                <li>Orange</li>
-                <li>Pear</li>
-                <li>Lemon</li>
-            </ul>
         </div>
     );
 }
