@@ -7,6 +7,11 @@ function App(): React.JSX.Element {
             <header className="App-header">
                 UM COS420 with React Hooks and TypeScript
             </header>
+
+            <h1>This is a header</h1>
+
+            <img src="https://i.imgur.com/v32GLZQ.jpeg" alt="Cat attack"></img>
+
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
