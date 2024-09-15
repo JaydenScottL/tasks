@@ -13,12 +13,6 @@ function App(): React.JSX.Element {
 
             <img src="https://i.imgur.com/q07Jibp.jpeg" alt="Orange cat"></img>
 
-            <ol>
-                <li>Apple</li>
-                <li>Orange</li>
-                <li>Pear</li>
-            </ol>
-
             <Button
                 onClick={() => {
                     console.log("Hello World!");
@@ -46,6 +40,20 @@ function App(): React.JSX.Element {
             <b>Jayden LeCorps</b>
             <ul>COS 420 test</ul>
             <p>Hello World!</p>
+
+            <ol>
+                <li>Apple</li>
+                <li>Orange</li>
+                <li>Pear</li>
+                <li>Lemon</li>
+            </ol>
+
+            <ul>
+                <li>Apple</li>
+                <li>Orange</li>
+                <li>Pear</li>
+                <li>Lemon</li>
+            </ul>
         </div>
     );
 }
