@@ -24,10 +24,11 @@ function App(): React.JSX.Element {
             <Container>
                 <Row>
                     <Col>
-                        <div id="red"></div>
-                    </Col>
-                    <Col>
-                        <div id="red"></div>
+                        <div
+                            id="red"
+                            style={{ backgroundColor: "red" }}
+                            color="red"
+                        ></div>
                     </Col>
                 </Row>
             </Container>
@@ -38,7 +39,7 @@ function App(): React.JSX.Element {
             </p>
 
             <b>Jayden LeCorps</b>
-            <h3>COS 420 test</h3>
+            <p>COS 420 test</p>
             <p>Hello World!</p>
 
             <ol>
