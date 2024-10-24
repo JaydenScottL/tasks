@@ -91,8 +91,6 @@ export function toMarkdown(question: Question): string {
         s += "- " + value + "\n";
     });
 
-    console.log("# " + question.name + "\n" + question.body + "\n" + s);
-
     return ("# " + question.name + "\n" + question.body + "\n" + s).trim();
 }
 
