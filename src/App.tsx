@@ -9,6 +9,15 @@ import { Counter } from "./components/Counter";
 function App(): React.JSX.Element {
     return (
         <div className="App">
+            <hr></hr>
+            <Counter></Counter>
+            <hr />
+            <RevealAnswer></RevealAnswer>
+            <hr />
+            <TwoDice></TwoDice>
+            <hr />
+            <ChangeType></ChangeType>
+
             <header className="App-header">
                 UM COS420 with React Hooks and TypeScript
             </header>
@@ -36,15 +45,6 @@ function App(): React.JSX.Element {
                     </Col>
                 </Row>
             </Container>
-
-            <hr></hr>
-            <Counter></Counter>
-            <hr />
-            <RevealAnswer></RevealAnswer>
-            <hr />
-            <TwoDice></TwoDice>
-            <hr />
-            <ChangeType></ChangeType>
 
             <b>Jayden LeCorps</b>
             <p>COS 420 test</p>
