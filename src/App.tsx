@@ -13,7 +13,7 @@ function App(): React.JSX.Element {
     return (
         <div className="App">
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            {<DoubleHalf></DoubleHalf>}
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
